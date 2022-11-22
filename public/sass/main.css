@@ -1,0 +1,110 @@
+.nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 12px;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+}
+.nav .nav-left {
+  color: white;
+}
+.nav .nav-right {
+  display: flex;
+}
+.nav .nav-right a {
+  margin: 5px;
+  font-weight: 500;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.admin-login {
+  border: 5px solid rgba(0, 0, 0, 0.1215686275);
+  margin-top: 25px;
+}
+.admin-login .admin-login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 95px;
+}
+.admin-login .admin-login-form div {
+  margin: 5px;
+}
+.admin-login .admin-login-form a {
+  color: blue;
+}
+
+.manager-login {
+  border: 5px solid rgba(0, 0, 0, 0.1215686275);
+  margin-top: 25px;
+}
+.manager-login .manager-login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 95px;
+}
+.manager-login .manager-login-form div {
+  margin: 5px;
+}
+.manager-login .manager-login-form a {
+  color: blue;
+}
+
+.user-login {
+  border: 5px solid rgba(0, 0, 0, 0.1215686275);
+  margin-top: 25px;
+}
+.user-login .user-login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 95px;
+}
+.user-login .user-login-form div {
+  margin: 5px;
+}
+.user-login .user-login-form a {
+  color: blue;
+}
+
+i {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.section {
+  background-color: rgba(159, 159, 159, 0.368627451);
+  border-radius: 15px;
+}
+.section .heading {
+  margin: 5px;
+}
+.section .line {
+  height: 2px;
+  width: auto;
+  background-color: black;
+}
+.section .content {
+  margin: 2px;
+  padding: 12px;
+}
+
+.user-request-li {
+  background: white;
+  padding: 13px;
+  margin: 2px 20px;
+  border-radius: 8px;
+}
+
+p {
+  cursor: pointer;
+  color: blue;
+}/*# sourceMappingURL=main.css.map */

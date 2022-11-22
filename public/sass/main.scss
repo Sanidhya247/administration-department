@@ -1,0 +1,106 @@
+.nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 12px;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+
+  .nav-left {
+    color: white;
+  }
+  .nav-right {
+    display: flex;
+
+    a {
+      margin: 5px;
+      font-weight: 500;
+    }
+  }
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+@mixin log-in {
+  border: 5px solid #0000001f;
+  margin-top: 25px;
+}
+@mixin login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 95px;
+}
+
+.admin-login {
+  @include log-in;
+  .admin-login-form {
+    @include login-form;
+    div {
+      margin: 5px;
+    }
+    a {
+      color: blue;
+    }
+  }
+}
+
+.manager-login {
+  @include log-in;
+  .manager-login-form {
+    @include login-form;
+    div {
+      margin: 5px;
+    }
+    a {
+      color: blue;
+    }
+  }
+}
+.user-login {
+  @include log-in;
+  .user-login-form {
+    @include login-form;
+    div {
+      margin: 5px;
+    }
+    a {
+      color: blue;
+    }
+  }
+}
+i{
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.section{
+    background-color: #9f9f9f5e;
+    border-radius: 15px;
+    .heading{
+        margin: 5px;
+    }
+    .line{
+        height:2px;
+        width: auto;
+        background-color: black;
+    }
+    .content{
+    margin:2px;
+    padding: 12px;
+    }
+}
+.user-request-li{
+  background: white;
+    padding: 13px;
+    margin: 2px 20px;
+    border-radius: 8px;
+}
+p{
+  cursor: pointer;
+  color: blue;
+}
